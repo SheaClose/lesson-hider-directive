@@ -7,7 +7,5 @@ angular.module('directivePractice')
     else{
     alert(lesson + ' is active on ' + day + '.');
     }
-    $scope.strikeText = function(lesson) {
-    }
   }
 })

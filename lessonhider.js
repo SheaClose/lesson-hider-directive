@@ -5,8 +5,6 @@ angular.module('directivePractice')
     , scope: {
         lesson: "="
       , dayAlert: "&"
-      , strikeText: "&"
-      , strikeThrough: "="
     }
     , link: function(scope, elem, attr){
         scope.getSchedule().then(function(response){
@@ -24,7 +22,7 @@ angular.module('directivePractice')
         })
     }
     , controller: function ($scope, lessonService){
-      $scope.getSchedule = lessonService.getSchedule
+      $scope.getSchedule = lessonService.getSchedule;
       }
     }
 })

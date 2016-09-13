@@ -1,9 +1,3 @@
-<img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
-
-# lesson-hider-directive
-
-## Objective
-
 Create a simple directive that modifies a template
 
 Today we will be building a custom directive that checks whether a lesson is already in the provided schedule, and strikes through that lesson if it is. We will
@@ -337,4 +331,3 @@ prohibited. Excerpts and links may be used, provided that full and clear credit 
 content.
 
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250">
-
